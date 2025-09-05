@@ -1,0 +1,33 @@
+# Thesis Deliverable: Predictive Tool for SME-Education Matching at MKB Werkplaats
+
+- **Project Title:** _Predictive Matching: Using Machine Learning to Optimize SME-Education Partnerships_
+- **Author:** _Aleksandr Kaiukov_
+
+## About the Project
+This project supports MKB Werkplaats in improving the success rate of SME-education collaborations, called definitive matches. By analysing past challenge data, a machine learning model was trained to estimate the likelihood of a successful match based on inputs (e.g., challenge type, institution, and company size). The deliverables include a working prediction tool, which can be used via a local web app or directly in a Jupyter/Colab Notebook.
+
+## Contents
+1. **Predictor.ipynb**
+- A notebook version of the predictor. Users can test different inputs and receive probability scores. Designed for demos in Jupyter/Colab.
+2. **app.py**
+- A Streamlit app that runs the predictor locally in the browser. No need to modify any code, just run and use the interface.
+3. **lr4_model.joblib**
+- A trained Logistic Regression model pipeline. It includes all preprocessing steps (e.g., encoding, imputation).
+
+## Note: 
+The dataset used to train the model (_MKB_final_dataset.xlsx_) is excluded from the repository due to privacy. It can be provided on request for academic or evaluation purposes.
+
+# How to Run the Web App Locally
+**Requirements:** Python 3.8 or higher installed; pip (Python package installer)
+
+**1. Download Files:** Save _app.py_ and _lr4_model.joblib_ into a folder on your computer.
+
+**2. Open Command Prompt (CMD):** Navigate to the folder using _cd_, for example: _C:\Users\name\Downloads\mkb_app_
+
+**3. Install dependencies (only once):** _pip install streamlit pandas joblib openpyxl_
+
+**4. Run the app:** _streamlit run app.py_
+
+**5. The app will open in your browser.** You can input values and instantly see the predicted match probability.
+
+For questions, dataset access, or thesis inquiries, feel free to reach out: _sashakayukov23@gmail.com_
