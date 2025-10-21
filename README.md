@@ -1,4 +1,4 @@
-# Thesis Deliverable: Predictive Tool for SME-Education Matching at MKB Werkplaats
+# Predictive Tool for SME-Education Matching at MKB Werkplaats
 
 - **Project Title:** _Predictive Matching: Using Machine Learning to Optimize SME-Education Partnerships_
 - **Author:** _Aleksandr Kaiukov_
@@ -31,3 +31,7 @@ The dataset used to train the model (_MKB_final_dataset.xlsx_) is excluded from 
 **5. The app will open in your browser.** You can input values and instantly see the predicted match probability.
 
 For questions, dataset access, or thesis inquiries, feel free to reach out: _sashakayukov23@gmail.com_
+
+<img width="1920" height="1080" alt="MKB-Python-Predictor" src="https://github.com/user-attachments/assets/ade7bbb9-fcc4-47d0-984a-6ddd1b9ce041" />
+
+<img width="1920" height="1080" alt="MKB-Web-Predictor" src="https://github.com/user-attachments/assets/279a27b4-de24-4901-a767-464e478fb34f" />
