@@ -4,7 +4,9 @@
 - **Author:** _Aleksandr Kaiukov_
 
 ## About the Project
-This part of the project supports MKB Werkplaats in improving the success rate of SME-education collaborations, called definitive matches. By analysing past challenge data, a machine learning model (LogReg) was trained to estimate the likelihood of a successful match based on inputs (e.g., challenge type, institution, and company size). The deliverables include a working prediction tool, which can be used via a local web app or directly in a Jupyter/Colab Notebook.
+This part of the project supports MKB Werkplaats in improving the success rate of SME-education collaborations, called definitive matches. By analysing past challenge data, a machine learning model (LogReg) was trained to estimate the likelihood of a successful match based on inputs (e.g., challenge type, institution, and company size). The deliverables include a working prediction tool, which can be used via a local web app or directly in a Jupyter/Colab Notebook. 
+
+*_SME = Small and Medium-sized Enterprise._
 
 ## Contents
 1. **Predictor.ipynb**
